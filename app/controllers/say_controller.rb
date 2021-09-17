@@ -3,5 +3,6 @@ class SayController < ApplicationController
   end
 
   def goodbye
+    @time = Time.now
   end
 end
